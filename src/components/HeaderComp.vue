@@ -4,13 +4,21 @@
     <div class="box-logo col-1 offset-1">
         <div class="logo">Spotify</div>
     </div>
+
+
   </header>
 </template>
 
 <script>
+
+import Search from '@/components/Search.vue'
+
 export default {
- name:'HeaderComp'
+ name:'HeaderComp',
+
 }
+
+
 </script>
 
 <style lang="scss" scoped>

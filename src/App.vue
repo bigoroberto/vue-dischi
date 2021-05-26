@@ -2,6 +2,7 @@
   <div id="app">
     <HeaderComp />
     
+    <!-- assegno al MainComp il nostro array che ci da l'API con il nome dischi   -->
     <MainComp :dischi="albums"/>
   </div>
 </template>
